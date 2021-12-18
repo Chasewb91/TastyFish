@@ -6,6 +6,6 @@
 	"Description": "Adds fun new recipes for fish!",
 	"UniqueID": "Haul.TastyFish",
 	"UpdateKeys": [],
-	"ContentPackFor": {"UniqueID": "spacechase0.JsonAssets",}
+	"ContentPackFor": {"UniqueID": "spacechase0.JsonAssets"}
 	
 }
