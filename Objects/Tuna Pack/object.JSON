@@ -1,0 +1,42 @@
+{
+	"Name": "Tuna Pack", 	//name of recipe
+	"Description": "Packed with PROTEIN!",	 //in game description
+	"Category": "Cooking", 	//sets to cooking menu
+	"Edibility": 50,	//sets health and energy
+	"EdibleIsDrink": false, 	//True or false!
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Defense": 1,
+		"Attack": 1,
+		"Duration": 120, // seconds
+		},
+
+	"Price": 100,
+	"IsColored": false,
+
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": "Tuna",
+				"Count": 2,
+			},
+		],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Gus",
+		"PurchasePrice": 100,
+		"PurchaseRequirements": ["f Gus 250"],
+	},
+
+	"GiftTastes": {
+		"Love": [ "Sam","Gus" ],
+		"Hate": [ "Haley", "Vincent", "Jas",],
+	},
+}

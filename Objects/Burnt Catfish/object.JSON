@@ -1,0 +1,48 @@
+{
+	"Name": "Burnt Fish", 	//name of recipe
+	"Description": "Someone left that on the grill too long",	 //in game description
+	"Category": "Cooking", 	//sets to cooking menu
+	"Edibility": 50,	//sets health and energy
+	"EdibleIsDrink": false, 	//True or false! 
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 1,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 120, // seconds
+		},
+	
+	"Price": 100,
+	"IsColored": false,
+	
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": -4,
+				"Count": 1,
+			},
+			{
+				"Object": "Coal",
+				"Count": 1,
+			},
+		],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Willy",
+		"PurchasePrice": 100,
+		"PurchaseRequirements": ["f Willy 250"],
+	},
+	
+	"GiftTastes": {
+		"Love": [ "Willy", ],
+	},
+}
+	
+	
+		
